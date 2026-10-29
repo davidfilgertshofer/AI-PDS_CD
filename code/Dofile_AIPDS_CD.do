@@ -2,12 +2,7 @@ clear all
 version 19 					
 set more off, permanently
 numlabel, add force
-*Pfad
-global path "W:\Promotion\Vignettenstudie\stata"
-global prog "$path\prog"
-global log "$path\log"
-global data "$path\data"
-global graphs "$path\graphs"
+
 
 **use Dataset_AIPDS_CD
 
